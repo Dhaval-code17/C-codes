@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main() {
+	int length, breadth ;
+
+	printf("enter the length : ");
+	scanf("%d", &length); //taking the value of length from user
+
+	printf("enter the breadth : ");
+	scanf("%d", &breadth); //taking the value of breadth from user
+
+	printf("Area of rectangle is : %d\n ", length-breadth); //calculation
+	//we can caculate area / perimeter of any shape just by changing the appropiate variable
+	return 0 ;
+}
